@@ -1,0 +1,128 @@
+
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Login Form Styles */
+  
+  .login-form {
+    padding: 20px;
+  }
+  
+  .login-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-header img {
+    width: 120px; /* Increased image width */
+    height: 80px;
+    margin-right: 20px;
+    border-radius: 10px; /* Reduced border radius to make it less circular */
+  }
+  
+  .login-header h2 {
+    color: #ff0000; /* Red color */
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  .input-group input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input-group input:focus {
+    border-color: #ff0000; /* Red color */
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+  }
+  
+  .submit {
+    width: 100%;
+    height: 40px;
+    background-color: #ff0000; /* Red color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+.submit:hover {
+    background-color: #cc0000; /* Darker red color */
+  }
+  
+  p {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  p a {
+    color: #ff0000; /* Red color */
+    text-decoration: none;
+  }
+  
+  p a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Styles */
+  
+  @media (max-width: 768px) {
+    .container {
+      margin: 20px auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      margin: 10px auto;
+    }
+    .login-header img {
+      width: 100px;
+      height: 60px;
+    }
+    .login-header h2 {
+      font-size: 18px;
+    }
+    .input-group input {
+      height: 30px;
+    }
+    button[type="submit"] {
+      height: 30px;
+    }
+  }
+
